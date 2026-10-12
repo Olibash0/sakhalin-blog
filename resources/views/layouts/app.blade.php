@@ -41,15 +41,15 @@
     <footer class="site-footer">
         <div class="footer-logo">SAKHALINE</div>
         
-        <nav class="footer-nav">
-            <a href="{{ route('about') }}">О ПРОЕКТЕ</a>
-            <a href="{{ route('home') }}">ЖУРНАЛ</a>
-            <a href="{{ route('category', 'nature') }}">РУБРИКИ</a>
-            <a href="#">КОНТАКТЫ</a>
-            <a href="#">404</a>
-        </nav>
+            <nav class="footer-nav">
+                <a href="{{ route('about') }}">О ПРОЕКТЕ</a>
+                <a href="{{ route('home') }}">ЖУРНАЛ</a>
+                <a href="{{ route('category', 'nature') }}">РУБРИКИ</a>
+                <a href="#">КОНТАКТЫ</a>
+                <a href="#">404</a>
+            </nav>
         
-        <div class="copyright">© 2026 SAKHALINE BLOG. Создано по приколу</div>
+        <div class="footer-copyright">© 2026 SAKHALINE BLOG. Создано по приколу</div>
     </footer>
 
     @stack('scripts')
